@@ -1,0 +1,168 @@
+﻿#SplashContainer
+{
+}
+
+#SplashContainer h2
+{
+	color: #333333;
+	margin: 0px 0px 0px 0px;
+}
+
+#SplashContainer h3
+{
+	color: #333333;
+	letter-spacing: normal;
+	margin: 5px 0px 5px 0px;
+}
+
+#SplashContainer #SignInPane
+{
+	width: 150px;
+	float: left;
+}
+
+#SplashContainer #Figure
+{
+	text-align: center;
+	margin-top: 60px;
+}
+
+#SplashContainer #RobloxAtAGlance
+{
+	background-color: #eeeeee;
+	border: solid 1px #000000;
+	float: right;
+	padding: 10px 10px 10px 10px;
+	width: 715px;
+}
+
+#SplashContainer #RobloxAtAGlance #ThingsToDo
+{
+	color: #666666;
+	float: left;
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+	width: 292px;
+}
+
+#SplashContainer #RobloxAtAGlance #ThingsToDo h3
+{
+	margin: 5px 0px 5px 0px;
+}
+
+#SplashContainer #RobloxAtAGlance #ThingsToDo #Point1
+{
+	background-image: url(https://web.archive.org/web/20061205194009im_/http://www.roblox.com/images/bullet1.png);
+	background-repeat: no-repeat;
+	background-position: 0 5px;
+	margin: 10px 0px 20px 0px;
+	padding: 0px 0 0px 55px;
+}
+
+#SplashContainer #RobloxAtAGlance #ThingsToDo #Point2
+{
+	background-image: url(https://web.archive.org/web/20061205194009im_/http://www.roblox.com/images/bullet2.png);
+	background-repeat: no-repeat;
+	background-position: 0 5px;
+	margin: 10px 0px 20px 0px;
+	padding: 0px 0 0px 55px;
+}
+
+#SplashContainer #RobloxAtAGlance #ThingsToDo #Point3
+{
+	background-image: url(https://web.archive.org/web/20061205194009im_/http://www.roblox.com/images/bullet3.png);
+	background-repeat: no-repeat;
+	background-position: 0 5px;
+	margin: 10px 0px 10px 0px;
+	padding: 0px 0 0px 55px;
+}
+
+#SplashContainer #RobloxAtAGlance #Showcase
+{
+	float: right;
+	margin: 15px 0px 0px 0px;
+	width: 400px;
+}
+
+#SplashContainer #RobloxAtAGlance #Install
+{
+	margin: 5px 0px 0px 0px;
+	width: 715px;
+}
+
+#SplashContainer #RobloxAtAGlance #Install #CompatibilityNote
+{
+	color: #666666;
+	float: left;
+	font: normal 9px/normal Verdana, Arial, Helvetica, sans-serif;
+	text-align: right;
+	width: 310px;
+}
+
+#SplashContainer #RobloxAtAGlance #Install #DownloadAndPlay
+{
+	float: right;
+	width: 400px;
+}
+
+#SplashContainer #UserPlacesPane
+{
+	border: solid 1px #000000;
+	clear: both;
+	margin: 15px 0px 0px 0px;
+}
+
+#SplashContainer #UserPlacesPane #UserPlaces_Header
+{
+	background-color: #bbbbbb;
+	border-right: solid 1px #000000;
+	padding: 10px 10px 10px 10px;
+	width: 144px;
+}
+
+#SplashContainer #UserPlacesPane #UserPlaces_Header h3
+{
+	line-height: 1em;
+	padding: 0px 0px 0px 0px;
+}
+
+#SplashContainer #UserPlacesPane #UserPlaces_Header p
+{
+	letter-spacing: 1px;
+	line-height: 1em;
+	padding: 0px 0px 0px 0px;
+}
+
+#SplashContainer #UserPlaces_Content
+{
+	float: right;
+	padding: 7px 5px 5px 5px;
+}
+
+#SplashContainer #UserPlaces_Content .UserPlace
+{
+	height: 70px;
+	margin: 10px 10px 10px 10px;
+	width: 120px;
+}
+/*
+     FILE ARCHIVED ON 19:40:09 Dec 05, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:05:10 Jun 12, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1359.347
+  exclusion.robots: 0.077
+  exclusion.robots.policy: 0.071
+  cdx.remote: 0.056
+  esindex: 0.009
+  LoadShardBlock: 152.618 (3)
+  PetaboxLoader3.datanode: 133.093 (4)
+  CDXLines.iter: 14.497 (3)
+  load_resource: 72.764
+  PetaboxLoader3.resolve: 23.883
+*/

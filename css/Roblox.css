@@ -1,0 +1,226 @@
+.Title
+{
+	font-size: 18px;
+}
+a.Title:link, a.Title:visited, a.Title:active
+{
+	text-decoration: none;
+}      
+a.Title:hover
+{
+	text-decoration: underline;
+}
+.Header
+{
+	font-size: 14px;
+}
+.Banner
+{
+	padding: 8px;
+}
+.BannerText
+{
+	font-weight: bold;
+	color: white;
+}
+a.BannerText:link, a.BannerText:visited, a.BannerText:active
+{
+	text-decoration: none;
+	color: white; 
+}      
+a.BannerText:hover
+{
+	text-decoration: underline;
+	color: white; 
+}
+.OKCancelButton
+{
+	width: 80px;
+}
+.SmallerFont
+{
+	font-size: 10px;
+}
+.RP
+{
+	font-size: 10px;
+	color: #cc3366;
+}
+.MenuItem
+{
+	color: White;
+	font-size: 18px;
+	line-height: 2em;
+}
+a.MenuItem:link, a.MenuItem:visited, a.MenuItem:active
+{
+	text-decoration: none;
+}      
+a.MenuItem:hover
+{
+	text-decoration: underline;
+}
+.SelectedMenuItem
+{
+	color:Blue;
+	font-size: 18px;
+	line-height: 2em;
+}
+a.SelectedMenuItem:link, a.SelectedMenuItem:visited, a.SelectedMenuItem:active
+{
+	text-decoration: none;
+}      
+a.SelectedMenuItem:hover
+{
+	text-decoration: underline;
+}
+.Legal
+{
+	font-size: 9px;
+}
+.Toolbox
+{
+	background-color: ButtonFace;
+	padding:2px;
+}
+.ToolboxItem
+{
+	border-color: Window;
+	border-style: solid;
+	border-width: 2px;	
+	width: 52px;
+	height: 52px;
+}
+.Grid
+{
+	background-color: White;
+	border-color: #CCCCCC;
+	border-width: 1px;
+	border-style: solid;
+	width: 800px;
+}
+.GridHeader
+{
+	color: White;  
+	background-color: LightSteelBlue;
+}
+.GridItem
+{
+	color: #000066;
+}
+.GridFooter
+{
+	color: #000066;
+	background-color: White;
+}
+.GridPager
+{
+	color: #000066;
+	background-color:White;
+	text-align:center;
+}
+a.GridLink:link, a.GridLink:visited, a.GridLink:active
+{
+	text-decoration: none;
+}      
+a.GridLink:hover
+{
+	text-decoration: underline;
+}
+.GridSelectedItem
+{
+	color: White;
+	background-color: #669999;
+}
+.LogInButton
+{
+	background-color: White;
+	color: #0000C0;
+}
+.RoundBorder
+{
+	border-right: seagreen solid;
+	border-top: seagreen solid;
+	border-left: seagreen solid;
+	border-bottom: seagreen solid;
+}
+.RoundBorder_Halloween
+{
+	border-right: Orange solid;
+	border-top: Orange solid;
+	border-left: Orange solid;
+	border-bottom: Orange solid;
+}
+Help.TABLE
+{
+	border-right: black thin solid;
+	border-top: black thin solid;
+	border-left: black thin solid;
+	border-bottom: black thin solid;
+}
+HELP.TR
+{
+	border-top: gray thin solid;
+	border-bottom: gray thin solid;
+}
+HELP.TD
+{
+}
+.UserOnlineMessage
+{
+	font-family: Verdana;
+	font-size: 8pt;
+	color: Red;
+}
+.UserOfflineMessage
+{
+	font-family: Verdana;
+	font-size: 8pt;
+	color: Gray;
+}
+.UserLastSeenMessage
+{
+	font-family: Verdana;
+	font-size: 8pt;
+	color: Gray;
+}
+
+.Registration
+{
+	font-size:larger
+}
+
+.Registration_Section_Row_Prompt
+{
+	text-align:right;
+	 width:12em;
+}
+
+.Registration_Section_Help
+{
+	font-style:italic;
+	padding-top:14
+}
+
+
+/*
+     FILE ARCHIVED ON 19:41:38 Dec 05, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:05:08 Jun 12, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 245.674
+  exclusion.robots: 0.106
+  exclusion.robots.policy: 0.098
+  RedisCDXSource: 26.748
+  esindex: 0.008
+  LoadShardBlock: 195.891 (3)
+  PetaboxLoader3.datanode: 204.46 (4)
+  CDXLines.iter: 15.175 (3)
+  load_resource: 249.85
+  PetaboxLoader3.resolve: 189.478
+*/

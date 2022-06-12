@@ -1,0 +1,100 @@
+﻿#UserContainer
+{
+	width: 100%
+}
+
+#ProfilePane
+{
+	float: left;
+	width: 365px;
+	margin: 12px 0 16px 0;
+	text-align: center;
+	border-color: #000000;
+	border-style: solid;
+	border-width: 1px;
+}
+
+#PrimaryPlacePane
+{
+	float: right;
+	width: 420px;
+	margin: 12px 0 24px 0;
+	text-align: center;
+	border-color: #000000;
+	border-style: solid;
+	border-width: 1px;
+}
+
+#FriendRequestsPane,
+#FriendsPane
+{
+	clear: both;
+	border-color: #000000;
+	border-style: solid;
+	border-width: 1px;
+	margin: 0px auto 0px auto;
+	overflow: auto;
+	width: 100%;
+	text-align: center;
+	height: 170px;
+}
+
+
+#UserModelsContainer
+{
+}
+
+#Friends h4
+{
+	font-size: 10pt;
+	font-weight: bold;
+	line-height: 1em;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.Friend
+{
+	margin: 10px 10px 10px 10px;
+}
+
+.Friend .Summary
+{
+	margin-top: 5px;
+}
+
+.Friend .Options
+{
+	margin-top: 5px;
+	text-align: center;
+}
+
+#FriendRequests h4
+{
+	font-size: 10pt;
+	font-weight: bold;
+	line-height: 1em;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+/*
+     FILE ARCHIVED ON 19:25:48 Dec 05, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:05:10 Jun 12, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 103.165
+  exclusion.robots: 0.159
+  exclusion.robots.policy: 0.147
+  cdx.remote: 0.104
+  esindex: 0.014
+  LoadShardBlock: 63.011 (3)
+  PetaboxLoader3.datanode: 73.295 (4)
+  CDXLines.iter: 25.265 (3)
+  load_resource: 76.807
+  PetaboxLoader3.resolve: 39.998
+*/
