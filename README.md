@@ -1,4 +1,5 @@
-<div id="top"></div>
+# 2006-Roblox-Website
+This is the old december roblox 2006 website
 
 <br />
 <div align="center">
@@ -13,16 +14,8 @@
     <br />
     <br />
     <a href="http://ficello.ct8.pl">View Demo</a>
-    ·
-    ·
   </p>
 </div>
-
-# 2006-Roblox-Website
-This is the old december roblox 2006 website
-
-This is a WIP
-Feel free to test it here: http://ficello.ct8.pl/
 
 ## Roadmap
 
@@ -42,4 +35,7 @@ Feel free to test it here: http://ficello.ct8.pl/
     - [ ] Forums post
     - [ ] Profile page
     - [ ] Login
-    - [ ] Sign up   
+    - [ ] Sign up 
+
+# Contact
+Discord: Ficello.zip#9910
