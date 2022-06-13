@@ -24,7 +24,7 @@ body {
       <div id="Container">
         <div id="Header">
           <div id="Banner" style="background-color: lightsteelblue">
-            <a id="_ctl0_Image1" title="ROBLOX" href="https://web.archive.org/web/20061205220137/http://www.roblox.com/Default.aspx" blankurl="/Thumbs/Blank.ashx?x=267&amp;y=70" imageurl="/images/Logo_267_70.png" style="display:inline-block;BEHAVIOR:url(/web/20061205220137im_/http://www.roblox.com/UI/Image.htc);cursor:hand;"></a>
+            <a id="_ctl0_Image1" title="ROBLOX" href="#" blankurl="/Thumbs/Blank.ashx?x=267&amp;y=70" imageurl="/images/Logo_267_70.png" style="display:inline-block;BEHAVIOR:url(/web/20061205220137im_/http://www.roblox.com/UI/Image.htc);cursor:hand;"></a>
           </div>
         </div>
         <div id="Body">
@@ -48,7 +48,7 @@ body {
         <p>
             If you have already registered your character but you still need to download the
             installer, go directly to
-            <a id="_ctl0_cphRoblox_HyperLinkDownload" href="https://web.archive.org/web/20061205220137/http://www.roblox.com/Install/Default.aspx?ReturnUrl=%2fMP%2fDefault.aspx">download</a>.
+            <a id="_ctl0_cphRoblox_HyperLinkDownload" href="../Install/Default.aspx">download</a>.
         </p>
         <p>
             If you just need to Log in, go to the

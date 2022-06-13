@@ -1,362 +1,342 @@
-﻿#MessageContainer
+#MessageContainer
 {
-	padding: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
 }
 
 #MessageContainer h3
 {
-	text-align: left;
-	width: 622px;
+  text-align: left;
+  width: 622px;
 }
 
 #MessageContainer #Buttons
 {
-	width: 622px;
+  width: 622px;
 }
 
 #MessageContainer .Button
 {
-	border-style: solid;
-	border-width: 1px;
-	border-color: #000000;
-	color: #000000;
-	float: right;
-	font-family: Verdana, Sans-Serif;
-	margin: 0px 0px 0px 10px;
-	padding: 3px 10px 3px 10px;
-	text-decoration: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  color: #000000;
+  float: right;
+  font-family: Verdana, Sans-Serif;
+  margin: 0px 0px 0px 10px;
+  padding: 3px 10px 3px 10px;
+  text-decoration: none;
 }
 
 #MessageContainer .MultilineTextBox
 {
-	border-color: Gray;
-	border-style: dashed;
-	line-height: 1.5em;
-	padding: 5px 5px 5px 5px;
-	scrollbar-base-color: Gray;
-	width: 98%;
+  border-color: Gray;
+  border-style: dashed;
+  line-height: 1.5em;
+  padding: 5px 5px 5px 5px;
+  scrollbar-base-color: Gray;
+  width: 98%;
 }
 
 #MessageContainer .TextBox
 {
-	border-color: Gray;
-	border-style: dashed;
-	padding: 5px 5px 5px 5px;
-	width: 98%;
+  border-color: Gray;
+  border-style: dashed;
+  padding: 5px 5px 5px 5px;
+  width: 98%;
 }
 
 #MessageContainer .Label
 {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 #MessageContainer #MessageReaderContainer
 {
-	border-style: solid;
-	border-width: 1px;
-	border-color: #000000;
-	margin: 10px 10px 10px 10px;
-	padding: 10px 10px 10px 10px;
-	width: 600px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  width: 600px;
 }
 
 #MessageContainer #MessageReaderContainer #Message
 {
-	float: left;
-	text-align: left;
+  float: left;
+  text-align: left;
 }
 
 #MessageContainer #MessageReaderContainer #Message #DateSent
 {
-	float: left;
-	text-align: left;
-	width: 39%;
+  float: left;
+  text-align: left;
+  width: 39%;
 }
 
 #MessageContainer #MessageReaderContainer #Message #Author
 {
-	clear: both;
-	float: left;
-	margin: 5px 0px 0px 0px;
-	text-align: left;
-	width: 39%;
+  clear: both;
+  float: left;
+  margin: 5px 0px 0px 0px;
+  text-align: left;
+  width: 39%;
 }
 
 #MessageContainer #MessageReaderContainer #Message #Subject
 {
-	clear: both;
-	float: left;
-	font-weight: bold;
-	margin: 5px 0px 0px 0px;
-	text-align: left;
-	width: 39%;
+  clear: both;
+  float: left;
+  font-weight: bold;
+  margin: 5px 0px 0px 0px;
+  text-align: left;
+  width: 39%;
 }
 
 #MessageContainer #MessageReaderContainer #Message #Body
 {
-	float: right;
-	text-align: left;
-	width: 59%;
-	vertical-align: top;
+  float: right;
+  text-align: left;
+  width: 59%;
+  vertical-align: top;
 }
 
 #MessageContainer #MessageEditorContainer
 {
-	border-style: solid;
-	border-width: 1px;
-	border-color: #000000;
-	margin: 10px 10px 10px 10px;
-	padding: 10px 10px 10px 10px;
-	width: 600px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  width: 600px;
 }
 
 #MessageContainer #MessageEditorContainer #MessageEditor
 {
-	float: left;
-	text-align: left;
+  float: left;
+  text-align: left;
 }
 
 #MessageContainer #MessageEditorContainer #MessageEditor #From
 {
-	float: left;
-	text-align: left;
-	width: 39%;
+  float: left;
+  text-align: left;
+  width: 39%;
 }
 
 #MessageContainer #MessageEditorContainer #MessageEditor #To
 {
-	clear: both;
-	float: left;
-	margin: 5px 0px 0px 0px;
-	text-align: left;
-	width: 39%;
+  clear: both;
+  float: left;
+  margin: 5px 0px 0px 0px;
+  text-align: left;
+  width: 39%;
 }
 
 #MessageContainer #MessageEditorContainer #MessageEditor #Subject
 {
-	float: right;
-	text-align: left;
-	width: 59%;
+  float: right;
+  text-align: left;
+  width: 59%;
 }
 
 #MessageContainer #MessageEditorContainer #MessageEditor #Body
 {
-	clear: right;
-	float: right;
-	margin: 5px 0px 0px 0px;
-	text-align: left;
-	width: 59%;
+  clear: right;
+  float: right;
+  margin: 5px 0px 0px 0px;
+  text-align: left;
+  width: 59%;
 }
 
 #MessageContainer #Confirmation h3
 {
-	text-align: left;
-	width: 422px;
+  text-align: left;
+  width: 422px;
 }
 
 #MessageContainer #Confirmation #Buttons
 {
-	width: 422px;
+  width: 422px;
 }
 
 #MessageContainer #Confirmation #Message
 {
-	border-style: solid;
-	border-width: 1px;
-	border-color: #000000;
-	margin: 10px 10px 10px 10px;
-	padding: 10px 10px 10px 10px;
-	width: 400px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  width: 400px;
 }
 
 #InvitationContainer
 {
-	padding: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
 }
 
 #InvitationContainer h3
 {
-	text-align: left;
-	width: 622px;
+  text-align: left;
+  width: 622px;
 }
 
 #InvitationContainer #Buttons
 {
-	width: 622px;
+  width: 622px;
 }
 
 #InvitationContainer .Button
 {
-	border-style: solid;
-	border-width: 1px;
-	border-color: #000000;
-	color: #000000;
-	float: right;
-	font-family: Verdana, Sans-Serif;
-	margin: 0px 0px 0px 10px;
-	padding: 3px 10px 3px 10px;
-	text-decoration: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  color: #000000;
+  float: right;
+  font-family: Verdana, Sans-Serif;
+  margin: 0px 0px 0px 10px;
+  padding: 3px 10px 3px 10px;
+  text-decoration: none;
 }
 
 #InvitationContainer .MultilineTextBox
 {
-	border-color: Gray;
-	border-style: dashed;
-	line-height: 1.5em;
-	padding: 5px 5px 5px 5px;
-	scrollbar-base-color: Gray;
-	width: 98%;
+  border-color: Gray;
+  border-style: dashed;
+  line-height: 1.5em;
+  padding: 5px 5px 5px 5px;
+  scrollbar-base-color: Gray;
+  width: 98%;
 }
 
 #InvitationContainer .TextBox
 {
-	border-color: Gray;
-	border-style: dashed;
-	padding: 5px 5px 5px 5px;
-	width: 98%;
+  border-color: Gray;
+  border-style: dashed;
+  padding: 5px 5px 5px 5px;
+  width: 98%;
 }
 
 #InvitationContainer .Label
 {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 #InvitationContainer #MessageReaderContainer
 {
-	border-style: solid;
-	border-width: 1px;
-	border-color: #000000;
-	margin: 10px 10px 10px 10px;
-	padding: 10px 10px 10px 10px;
-	width: 600px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  width: 600px;
 }
 
 #InvitationContainer #MessageReaderContainer #Message
 {
-	float: left;
-	text-align: left;
+  float: left;
+  text-align: left;
 }
 
 #InvitationContainer #MessageReaderContainer #Message #DateSent
 {
-	float: left;
-	text-align: left;
-	width: 39%;
+  float: left;
+  text-align: left;
+  width: 39%;
 }
 
 #InvitationContainer #MessageReaderContainer #Message #Author
 {
-	clear: both;
-	float: left;
-	margin: 5px 0px 0px 0px;
-	text-align: left;
-	width: 39%;
+  clear: both;
+  float: left;
+  margin: 5px 0px 0px 0px;
+  text-align: left;
+  width: 39%;
 }
 
 #InvitationContainer #MessageReaderContainer #Message #Subject
 {
-	clear: both;
-	float: left;
-	font-weight: bold;
-	margin: 5px 0px 0px 0px;
-	text-align: left;
-	width: 39%;
+  clear: both;
+  float: left;
+  font-weight: bold;
+  margin: 5px 0px 0px 0px;
+  text-align: left;
+  width: 39%;
 }
 
 #InvitationContainer #MessageReaderContainer #Message #Body
 {
-	float: right;
-	text-align: left;
-	width: 59%;
-	vertical-align: top;
+  float: right;
+  text-align: left;
+  width: 59%;
+  vertical-align: top;
 }
 
 #InvitationContainer #MessageEditorContainer
 {
-	border-style: solid;
-	border-width: 1px;
-	border-color: #000000;
-	margin: 10px 10px 10px 10px;
-	padding: 10px 10px 10px 10px;
-	width: 600px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  width: 600px;
 }
 
 #InvitationContainer #MessageEditorContainer #MessageEditor
 {
-	float: left;
-	text-align: left;
+  float: left;
+  text-align: left;
 }
 
 #InvitationContainer #MessageEditorContainer #MessageEditor #From
 {
-	float: left;
-	text-align: left;
-	width: 39%;
+  float: left;
+  text-align: left;
+  width: 39%;
 }
 
 #InvitationContainer #MessageEditorContainer #MessageEditor #To
 {
-	clear: both;
-	float: left;
-	margin: 5px 0px 0px 0px;
-	text-align: left;
-	width: 39%;
+  clear: both;
+  float: left;
+  margin: 5px 0px 0px 0px;
+  text-align: left;
+  width: 39%;
 }
 
 #InvitationContainer #MessageEditorContainer #MessageEditor #Subject
 {
-	float: right;
-	text-align: left;
-	width: 59%;
+  float: right;
+  text-align: left;
+  width: 59%;
 }
 
 #InvitationContainer #MessageEditorContainer #MessageEditor #Body
 {
-	clear: right;
-	float: right;
-	margin: 5px 0px 0px 0px;
-	text-align: left;
-	width: 59%;
+  clear: right;
+  float: right;
+  margin: 5px 0px 0px 0px;
+  text-align: left;
+  width: 59%;
 }
 
 #InvitationContainer #Confirmation h3
 {
-	text-align: left;
-	width: 422px;
+  text-align: left;
+  width: 422px;
 }
 
 #InvitationContainer #Confirmation #Buttons
 {
-	width: 422px;
+  width: 422px;
 }
 
 #InvitationContainer #Confirmation #Message
 {
-	border-style: solid;
-	border-width: 1px;
-	border-color: #000000;
-	margin: 10px 10px 10px 10px;
-	padding: 10px 10px 10px 10px;
-	width: 400px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  width: 400px;
 }
-/*
-     FILE ARCHIVED ON 19:35:20 Dec 05, 2006 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 19:05:09 Jun 12, 2022.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 623.292
-  exclusion.robots: 0.12
-  exclusion.robots.policy: 0.112
-  cdx.remote: 0.063
-  esindex: 0.008
-  LoadShardBlock: 408.454 (3)
-  PetaboxLoader3.datanode: 179.762 (4)
-  CDXLines.iter: 17.596 (3)
-  load_resource: 117.523
-  PetaboxLoader3.resolve: 64.317
-*/
