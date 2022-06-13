@@ -17,7 +17,7 @@ This is the old december roblox 2006 website
 
 - [x] Adding frontend page
     - [x] Download
-    - [x] Forget password
+    - [x] Forgot password
     - [x] Games
     - [x] Sign up
     - [x] Login
