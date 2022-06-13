@@ -7,11 +7,7 @@ This is the old december roblox 2006 website
     <img src="images/landing-page.png">
   </a>
 
-  <h3 align="center">2006 Roblox website</h3>
-
   <p align="center">
-    Hello!
-    <br />
     <br />
     <a href="http://ficello.ct8.pl">View Demo</a>
   </p>
