@@ -1,20 +1,15 @@
 <div id="top"></div>
 
-[![Forks][forks-shield]][forks-url]
-
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="images/">
-    <img src="images/logo.png">
+  <a href="#">
+    <img src="images/landing-page.png">
   </a>
 
   <h3 align="center">2006 Roblox website</h3>
 
   <p align="center">
     Hello!
-    <br />
-    <a href="#"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="http://ficello.ct8.pl">View Demo</a>
