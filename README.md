@@ -37,3 +37,7 @@ This is the old december roblox 2006 website
 
 # Contact
 Discord: Ficello.zip#9910
+
+# How can I setup this to my own website?
+
+Put everythings in your htdocs folder and rename every "htaccess" to ".htaccess" to make .aspx working like a php file, enjoy using it!
