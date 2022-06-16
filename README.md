@@ -45,5 +45,5 @@ Discord: Ficello.zip#9910
 Put everythings in your htdocs folder and rename every "htaccess" to ".htaccess" to make .aspx working like a php file, enjoy using it!
 
 Default login: <br>
-username -> Administrator
+username -> Administrator<br>
 password -> adminPasswd01
