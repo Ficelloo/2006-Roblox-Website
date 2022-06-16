@@ -35,13 +35,7 @@ body {
           </div>
         </div>
         <div id="Body">
-          
-  <script type="text/javascript">
-    function signUp()
-    {
-      window.location = "/Login/New.aspx?ReturnUrl=%2fMP%2fDefault.aspx";
-    }
-  </script>
+
   <div id="FrameLogin" style="margin: 150px auto 150px auto; width: 500px; border: black thin solid; padding: 22px;">
     <div id="PaneNewUser">
       <h3>New User?</h3>
@@ -50,20 +44,21 @@ body {
     </div>
     <div id="PaneLogin">
       <h3>Log In</h3>
-      <table class="AspNet-Login" id="_ctl0_cphRoblox_lRobloxLogin" cellspacing="0" cellpadding="1" border="0">
+      <form method='post'>
   <tbody><tr>
     <td><table cellpadding="0" border="0">
       <tbody><tr>
-        <td class="TextboxLabel" align="right"><label for="_ctl0_cphRoblox_lRobloxLogin_UserName">User Name:</label></td><td><input name="_ctl0:cphRoblox:lRobloxLogin:UserName" type="text" id="_ctl0_cphRoblox_lRobloxLogin_UserName">&nbsp;</td>
+        <td class="TextboxLabel" align="right"><label>User Name:</label></td><td><input name="usernamefield" type="text" id="usernamefield">&nbsp;</td>
       </tr><tr>
-        <td class="TextboxLabel" align="right"><label for="_ctl0_cphRoblox_lRobloxLogin_Password">Password:</label></td><td><input name="_ctl0:cphRoblox:lRobloxLogin:Password" type="password" id="_ctl0_cphRoblox_lRobloxLogin_Password">&nbsp;</td>
+        <td class="TextboxLabel" align="right"><label>Password:</label></td><td><input name="passwordfield" type="password" id="passwordfield">&nbsp;</td>
       </tr><tr>
-        <td colspan="2" align="right"><input type="submit" name="_ctl0:cphRoblox:lRobloxLogin:LoginButton" value="Log In" onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("_ctl0:cphRoblox:lRobloxLogin:LoginButton", "", true, "_ctl0:cphRoblox:lRobloxLogin", "", false, false))' language="javascript" id="_ctl0_cphRoblox_lRobloxLogin_LoginButton"></td>
+        <td colspan="2" align="right"><input type="submit" name="Login" value="Log In"></td>
       </tr><tr>
         <td colspan="2"><a id="_ctl0_cphRoblox_lRobloxLogin_PasswordRecoveryLink" href="ResetPasswordRequest.aspx">Forgot your password?</a></td>
       </tr>
     </tbody></table></td>
   </tr>
+  </form>
 </tbody></table>
     </div>
   </div>
@@ -82,3 +77,37 @@ body {
       </div>
     
 </form></body></html>
+
+
+<?php
+global $db;
+  
+  if(isset($_POST['Login'])) {
+    extract($_POST);
+    
+    $q = $db->prepare("SELECT * FROM users WHERE name = :username");
+    $q->execute(['username' => $usernamefield]);
+    $result = $q->fetch();
+    
+    if($result == true) {
+      if($passwordfield == $result['passwd']) {
+         session_regenerate_id();
+         $_SESSION['loggedin'] = TRUE;
+         $_SESSION['name'] = $result['name'];
+         $_SESSION['id'] = $result['id'];
+         $_SESSION['banned'] = $result['banned'];
+         $_SESSION['admin'] = $result['admin'];
+
+         header('Location: ../');
+      } else {
+        ?>
+        <h1>Invalid login credentials</h1>
+        <?php
+      }
+    } else {
+      ?>
+      <h1>Invalid login credentials</h1>
+      <?php
+    }
+  }
+?>

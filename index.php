@@ -8,8 +8,8 @@ include "cfg/includes.php";
 <script type="text/javascript" src="js/bundle-playback.js" charset="utf-8"></script>
 <script type="text/javascript" src="js/wombat.js" charset="utf-8"></script>
 
-<link rel="stylesheet" type="text/css" href="ROBLOX_fichiers/banner-styles.css">
-<link rel="stylesheet" type="text/css" href="ROBLOX_fichiers/iconochive.css">
+<link rel="stylesheet" type="text/css" href="css/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="css/iconochive.css">
 <title>
   ROBLOX
 </title><link rel="stylesheet" type="text/css" href="css/Roblox.css"><link id="_ctl0_Imports" rel="stylesheet" type="text/css" href="css/Import.css"><link id="_ctl0_Favicon" rel="Shortcut Icon" type="image/ico" href="https://web.archive.org/web/20061230105806im_/http://www.roblox.com/roblox.ico"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="author" content="ROBLOX Corporation"><meta name="description" content="ROBLOX is SAFE for kids! ROBLOX is a FREE casual virtual world with fully constructible/desctructible environments and immersive physics. Build, battle, chat, or just hang out."><meta name="keywords" content="game, video game, building game, contstruction game, online game, LEGO game, LEGO, MMO, MMORPG, virtual world, avatar chat"><meta name="robots" content="all">
@@ -29,11 +29,22 @@ body {
         <div id="Header">
           <div id="Banner">
             <div id="Authentication">
-              <span><a id="_ctl0_lsLoginStatus" href="Login/Default.aspx">Log In</a></span>
+                <?php
+             if (isset($_SESSION["loggedin"])) {
+                 ?>
+             <span><a id="_ctl0_lsLoginStatus" href="Login/logout.php">Log out</a></span>
+             <?php } else { ?>
+             <span><a id="_ctl0_lsLoginStatus" href="Login/Default.aspx">Log In</a></span>
+             <?php } ?>
             </div>
             <div id="Home"><a id="_ctl0_hlHome" class="BannerText" href="#">ROBLOX Home</a></div>
             <div id="Logo"><a id="_ctl0_rbxImage_Logo" title="ROBLOX" href="#" blankurl="/Thumbs/Blank.ashx?x=267&amp;y=70" imageurl="/images/Logo_267_70.png" style="display:inline-block;BEHAVIOR:url(/web/20061230105806im_/http://www.roblox.com/UI/Image.htc);cursor:hand;"></a></div>
+            <?php
+    if (isset($_SESSION["loggedin"])) {
+      
+      } else { ?>
             <div id="Alerts"><a id="_ctl0_rbxSignupAndPlay_hlSignupAndPlay" href="Login/New.aspx"><img src="images/SignupBanner.png" alt="Sign-up and Play!" border="0"></a></div>
+            <?php } ?>
           </div>
           <div id="Navigation">
             <span><a id="_ctl0_hlMyRoblox" class="MenuItem" href="https://web.archive.org/web/20061230105806/http://www.roblox.com/User.aspx">My ROBLOX</a></span>
@@ -56,7 +67,27 @@ body {
   <div id="SplashContainer">
     <div id="SignInPane">
       
-
+<?php
+    if (isset($_SESSION["loggedin"])) { ?>
+      <div id="LoginViewContainer">
+  
+      <div id="LoginView">
+        <h5>Account info</h5>
+        <table id="_ctl0_cphRoblox_rbxLoginView_lvLoginView_lSignIn" cellspacing="0" cellpadding="0" border="0">
+  <tbody><tr>
+    <td>
+            <div class="AspNet-Login">
+              <div class="AspNet-Login-UserPanel">
+                <label for="_ctl0_cphRoblox_rbxLoginView_lvLoginView_lSignIn_UserName" id="_ctl0_cphRoblox_rbxLoginView_lvLoginView_lSignIn_UserNameLabel" class="Label">Welcome back, placeholder</label>
+            </div>
+          </td>
+  </tr>
+</tbody></table>
+      </div>
+    
+</div>
+      <?php
+      } else { ?>
 <div id="LoginViewContainer">
   
       <div id="LoginView">
@@ -86,6 +117,7 @@ body {
       </div>
     
 </div>
+<?php } ?>
       <div id="Figure"><a id="_ctl0_cphRoblox_ImageFigure" disabled="disabled" title="Figure" onclick="return false" blankurl="/Thumbs/Blank.ashx?x=115&amp;y=130" imageurl="/images/figure.png" style="display:inline-block;BEHAVIOR:url(/web/20061230105806im_/http://www.roblox.com/UI/Image.htc);"></a></div>
     </div>
     <div id="RobloxAtAGlance">
@@ -112,7 +144,13 @@ body {
         <div id="CompatibilityNote"><div id="_ctl0_cphRoblox_pCompatibilityNote">
   Works with your<br>Windows PC!
 </div></div>
+<?php
+    if (isset($_SESSION["loggedin"])) { ?>
+       <div id="DownloadAndPlay"><a id="_ctl0_cphRoblox_hlDownloadAndPlay" href="Install/Default.aspx"><img src="images/DownloadAndPlay.png" alt="FREE - Download and Play!" border="0"></a></div>
+       <?php
+      } else { ?>
         <div id="DownloadAndPlay"><a id="_ctl0_cphRoblox_hlDownloadAndPlay" href="Login/New.aspx"><img src="images/DownloadAndPlay.png" alt="FREE - Download and Play!" border="0"></a></div>
+        <?php } ?>
       </div>
     </div>
     <div id="UserPlacesPane">
