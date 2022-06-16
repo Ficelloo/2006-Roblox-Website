@@ -30,9 +30,11 @@ This is the old december roblox 2006 website
     - [x] Maintenance mode
     - [ ] Forums post
     - [ ] Profile page
-    - [ ] Login
+    - [x] Login
     - [ ] Sign up 
-    - [ ] Database login
+    - [ ] Admin panel
+    - [ ] Cookies
+    - [x] Database login
 - [ ] Cleaning source
 
 # Contact
