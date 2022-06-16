@@ -34,6 +34,7 @@ This is the old december roblox 2006 website
     - [ ] Sign up 
     - [ ] Admin panel
     - [ ] Cookies
+    - [ ] Bcrypt hash
     - [x] Database login
 - [ ] Cleaning source
 
