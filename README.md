@@ -1,5 +1,5 @@
 # WARNING!
-This repo has been archived because i'm working on a new 2006 roblox 'private server'. More infos later
+This repo has been archived because i'm working on a new 2006 roblox 'private server'. More infos later. I won't update this 2006 website anymore
 
 # 2006-Roblox-Website
 This is the old december roblox 2006 website
@@ -42,7 +42,7 @@ This is the old december roblox 2006 website
 - [ ] Cleaning source
 
 # Contact
-Discord: Ficello.zip#9910
+Discord: Ficello
 
 # How can I setup this to my own website?
 
