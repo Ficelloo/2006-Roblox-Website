@@ -41,8 +41,6 @@ This is the old december roblox 2006 website
     - [x] Database login
 - [ ] Cleaning source
 
-# Contact
-Discord: Ficello
 
 # How can I setup this to my own website?
 
